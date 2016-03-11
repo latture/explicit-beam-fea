@@ -1,0 +1,6 @@
+<map id="explicit_fea::TimoshenkoBeamElement::calculate_stiffness_matrix" name="explicit_fea::TimoshenkoBeamElement::calculate_stiffness_matrix">
+<area shape="rect" id="node2" href="$namespaceexplicit__fea.html#ae422e00fbd8ce06b1122166e3dca3641" title="Updates rotation matrices to the current element&#39;s geometry based on the associated vector of Nodes..." alt="" coords="228,39,369,80"/>
+<area shape="rect" id="node3" href="$classexplicit__fea_1_1_beam_element.html#a6aab61e47362e40a8fcf444b95fd084b" title="Returns the indices of the nodal coordinates referenced by the beam element. " alt="" coords="417,5,600,47"/>
+<area shape="rect" id="node4" href="$classexplicit__fea_1_1_beam_element.html#a376679bedc09670374a9a180a6ae23a3" title="Returns the elemental properties. " alt="" coords="417,71,600,112"/>
+<area shape="rect" id="node5" href="$classexplicit__fea_1_1_beam_element.html#a278bc73d3631cff4a87549d5867916f8" title="explicit_fea::BeamElement\l::BeamElement" alt="" coords="648,71,831,112"/>
+</map>

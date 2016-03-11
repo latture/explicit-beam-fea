@@ -1,0 +1,4 @@
+<map id="explicit_fea::BeamElement::~BeamElement" name="explicit_fea::BeamElement::~BeamElement">
+<area shape="rect" id="node2" href="$classexplicit__fea_1_1_beam_element.html#a371bcb35f59416a2a83e497a9f982846" title="Returns the elemental stiffness matrix. " alt="" coords="241,5,425,47"/>
+<area shape="rect" id="node3" href="$classexplicit__fea_1_1_beam_element.html#ab372fc3e6bb64683f3b3830c084a1125" title="Returns the inverse mass matrix. " alt="" coords="236,71,429,112"/>
+</map>

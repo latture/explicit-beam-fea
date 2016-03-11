@@ -1,0 +1,5 @@
+<map id="explicit_fea::update_rotation" name="explicit_fea::update_rotation">
+<area shape="rect" id="node2" href="$classexplicit__fea_1_1_beam_element.html#a6aab61e47362e40a8fcf444b95fd084b" title="Returns the indices of the nodal coordinates referenced by the beam element. " alt="" coords="195,5,377,47"/>
+<area shape="rect" id="node3" href="$classexplicit__fea_1_1_beam_element.html#a376679bedc09670374a9a180a6ae23a3" title="Returns the elemental properties. " alt="" coords="195,71,377,112"/>
+<area shape="rect" id="node4" href="$classexplicit__fea_1_1_beam_element.html#a278bc73d3631cff4a87549d5867916f8" title="explicit_fea::BeamElement\l::BeamElement" alt="" coords="425,71,608,112"/>
+</map>
