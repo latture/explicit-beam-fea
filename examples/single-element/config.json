@@ -1,10 +1,22 @@
 {
-    "nodes" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodes.csv",
-    "elems" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/elems.csv",
-    "props" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/props.csv",
-    "bcs" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/bcs.csv",
-    "nodal_displacements" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodal_displacements.csv",
-    "nodal_velocities" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodal_velocities.csv",
+    "nodes" : "/absolute/path/to/examples/single-element/nodes.csv",
+    "elems" : "/absolute/path/to/examples/single-element/elems.csv",
+    "props" : "/absolute/path/to/examples/single-element/props.csv",
+    "bcs" : "/absolute/path/to/examples/single-element/bcs.csv",
+    "nodal_displacements" : "/absolute/path/to/examples/single-element/nodal_displacements.csv",
+    "nodal_velocities" : "/absolute/path/to/examples/single-element/nodal_velocities.csv",
     "start_time" : 0.0,
-    "end_time" : 0.001
+    "end_time" : 0.001,
+    "options" : {
+                    "verbose" : true,
+                    "save_frequency" : 0,
+                    "state_filename" : "state",
+                    "nodal_displacements_filename" : "displacements",
+                    "nodal_velocities_filename" : "velocities",
+                    "nodal_forces_filename" : "forces",
+                    "beta" : 0.25,
+                    "gamma" : 0.5,
+                    "damping_alpha" : 0.01,
+                    "damping_beta" : 0.01
+                }
 }
