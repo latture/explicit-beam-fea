@@ -1,0 +1,10 @@
+{
+    "nodes" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodes.csv",
+    "elems" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/elems.csv",
+    "props" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/props.csv",
+    "bcs" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/bcs.csv",
+    "nodal_displacements" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodal_displacements.csv",
+    "nodal_velocities" : "/home/ryan/Dropbox/C++/explicit-beam-fea-v2/examples/single-element/nodal_velocities.csv",
+    "start_time" : 0.0,
+    "end_time" : 0.001
+}

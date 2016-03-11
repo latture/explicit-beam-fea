@@ -1,0 +1,15 @@
+[submodule "ext/eigen"]
+    path = ext/eigen
+    url = https://github.com/RLovelett/eigen.git
+
+[submodule "ext/googletest"]
+    path = ext/googletest
+    url = https://github.com/google/googletest.git
+
+[submodule "ext/rapidjson"]
+    path = ext/rapidjson
+    url = https://github.com/miloyip/rapidjson.git
+
+[submodule "ext/tclap"]
+    path = ext/tclap
+    url = https://github.com/eile/tclap.git
