@@ -6,11 +6,11 @@ This project requires CMake to compile the code. If not installed, please instal
 #### To compile the code: ####
   1. Open the `explicit-beam-fea` directory in the terminal
   2. Execute `git submodule update --init --recursive` to fetch all the dependencies.
-  2. Create a folder named `build` within the `explicit-beam-fea` parent directory.
-  3. Open a terminal and navigate to the newly formed `build` directory
-  4. Execute `cmake ..`
+  3. Create a folder named `build` within the `explicit-beam-fea` parent directory.
+  4. Open a terminal and navigate to the newly formed `build` directory
+  5. Execute `cmake ..`
     * Use `-DCMAKE_BUILD_TYPE=debug` if you would like to build the code for debugging purposes. By default the make files will be configured for the release build.
-  5. On Linux run `make` in the terminal from the build directory to build all the targets. On Windows the solution file will be located in the build directory. Open the solution file in Visual Studio and compile.
+  6. On Linux run `make` in the terminal from the build directory to build all the targets. On Windows the solution file will be located in the build directory. Open the solution file in Visual Studio and compile.
 
 ## Introduction ##
 This contains a dynamic finite element code intended for either 3D Euler-Bernoulli or Timoshenko beam elements.
