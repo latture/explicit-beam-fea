@@ -44,6 +44,12 @@ namespace explicit_fea {
                 }
                 nodal_velocities_filename = config_doc["options"]["nodal_velocities_filename"].GetString();
             }
+            if (config_doc["options"].HasMember("nodal_forces_filename")) {
+                if (!config_doc["options"]["nodal_forces_filename"].IsString()) {
+                    throw std::runtime_error("nodal_forces_filename provided in options configuration is not a string.");
+                }
+                nodal_forces_filename = config_doc["options"]["nodal_forces_filename"].GetString();
+            }
             if (config_doc["options"].HasMember("save_frequency")) {
                 if (!config_doc["options"]["save_frequency"].IsNumber()) {
                     throw std::runtime_error("save_frequency provided in options configuration is not a number.");
