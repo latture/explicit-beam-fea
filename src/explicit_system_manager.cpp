@@ -30,19 +30,19 @@ namespace explicit_fea {
                 if (!config_doc["options"]["state_filename"].IsString()) {
                     throw std::runtime_error("state_filename provided in options configuration is not a string.");
                 }
-                state_filename = config_doc["options"]["state_filename"].GetBool();
+                state_filename = config_doc["options"]["state_filename"].GetString();
             }
             if (config_doc["options"].HasMember("nodal_displacements_filename")) {
                 if (!config_doc["options"]["nodal_displacements_filename"].IsString()) {
                     throw std::runtime_error("nodal_displacements_filename provided in options configuration is not a string.");
                 }
-                nodal_displacements_filename = config_doc["options"]["nodal_displacements_filename"].GetBool();
+                nodal_displacements_filename = config_doc["options"]["nodal_displacements_filename"].GetString();
             }
             if (config_doc["options"].HasMember("nodal_velocities_filename")) {
                 if (!config_doc["options"]["nodal_velocities_filename"].IsString()) {
                     throw std::runtime_error("nodal_velocities_filename provided in options configuration is not a string.");
                 }
-                nodal_velocities_filename = config_doc["options"]["nodal_velocities_filename"].GetBool();
+                nodal_velocities_filename = config_doc["options"]["nodal_velocities_filename"].GetString();
             }
             if (config_doc["options"].HasMember("save_frequency")) {
                 if (!config_doc["options"]["save_frequency"].IsNumber()) {
