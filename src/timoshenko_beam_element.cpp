@@ -51,12 +51,12 @@ namespace explicit_fea {
         const double tmpGJ = GJ / length;
 
         const double tmp12z = 12.0 * EIz / ((length * length * length) * (1.0 + phiz));
-        const double tmp6z = 6.0 * EIz / ((length * length) * (1 + phiz));
+        const double tmp6z = 6.0 * EIz / ((length * length) * (1.0 + phiz));
         const double tmp1z2 = EIz * (2.0 - phiz) / (length * (1.0 + phiz));
         const double tmp1z4 = EIz * (4.0 + phiz) / (length * (1.0 + phiz));
 
         const double tmp12y = 12.0 * EIy / ((length * length * length) * (1.0 + phiy));
-        const double tmp6y = 6.0 * EIy / ((length * length) * (1 + phiy));
+        const double tmp6y = 6.0 * EIy / ((length * length) * (1.0 + phiy));
         const double tmp1y2 = EIy * (2.0 - phiy) / (length * (1.0 + phiy));
         const double tmp1y4 = EIy * (4.0 + phiy) / (length * (1.0 + phiy));
 
@@ -73,16 +73,16 @@ namespace explicit_fea {
         local_elemental_stiffness(1, 11) = tmp6z;
 
         local_elemental_stiffness(2, 2) = tmp12y;
-        local_elemental_stiffness(2, 4) = tmp6y;
+        local_elemental_stiffness(2, 4) = -tmp6y;
         local_elemental_stiffness(2, 8) = -tmp12y;
-        local_elemental_stiffness(2, 10) = tmp6y;
+        local_elemental_stiffness(2, 10) = -tmp6y;
 
         local_elemental_stiffness(3, 3) = tmpGJ;
         local_elemental_stiffness(3, 9) = -tmpGJ;
 
-        local_elemental_stiffness(4, 2) = tmp6y;
+        local_elemental_stiffness(4, 2) = -tmp6y;
         local_elemental_stiffness(4, 4) = tmp1y4;
-        local_elemental_stiffness(4, 8) = -tmp6y;
+        local_elemental_stiffness(4, 8) = tmp6y;
         local_elemental_stiffness(4, 10) = tmp1y2;
 
         local_elemental_stiffness(5, 1) = tmp6z;
@@ -99,16 +99,16 @@ namespace explicit_fea {
         local_elemental_stiffness(7, 11) = -tmp6z;
 
         local_elemental_stiffness(8, 2) = -tmp12y;
-        local_elemental_stiffness(8, 4) = -tmp6y;
+        local_elemental_stiffness(8, 4) = tmp6y;
         local_elemental_stiffness(8, 8) = tmp12y;
-        local_elemental_stiffness(8, 10) = -tmp6y;
+        local_elemental_stiffness(8, 10) = tmp6y;
 
         local_elemental_stiffness(9, 3) = -tmpGJ;
         local_elemental_stiffness(9, 9) = tmpGJ;
 
-        local_elemental_stiffness(10, 2) = tmp6y;
+        local_elemental_stiffness(10, 2) = -tmp6y;
         local_elemental_stiffness(10, 4) = tmp1y2;
-        local_elemental_stiffness(10, 8) = -tmp6y;
+        local_elemental_stiffness(10, 8) = tmp6y;
         local_elemental_stiffness(10, 10) = tmp1y4;
 
         local_elemental_stiffness(11, 1) = tmp6z;
@@ -189,7 +189,7 @@ namespace explicit_fea {
 
         inverse_local_elemental_mass(6, 0) = -tmp2;
         inverse_local_elemental_mass(6, 6) = tmp4;
-        https://play.google.com/music/listen
+
         inverse_local_elemental_mass(7, 1) = -tmp24z;
         inverse_local_elemental_mass(7, 5) = tmp6012z;
         inverse_local_elemental_mass(7, 7) = tmp192z;
